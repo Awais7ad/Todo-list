@@ -11,7 +11,7 @@ const Form = () => {
   const [editIndex, setEditIndex] = useState(null);
 
   const handleAddProduct = () => {
-    if (name.trim() === "" || pnumber.trim() === "" || qnumber.trim() === "") {
+    if (name.trim() === "" || pnumber.trim() === "" || qnumber.trim() === "" || image.trim() === "") {
       alert("All fields must be filled.");
       return;
     }
